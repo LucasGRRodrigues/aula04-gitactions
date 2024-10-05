@@ -46,3 +46,5 @@ jobs:
         run: echo "Execultando o passo 08"
       - name: Passo 09
         run: echo "Execultando o passo 09"
+      - name: Passo error
+        run: echo "Quebrou" | exit 1
